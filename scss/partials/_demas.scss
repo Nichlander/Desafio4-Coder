@@ -1,0 +1,42 @@
+.main-d{
+    color: white;
+    background-image: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .section-text{
+        height: 100vh;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-left: 50px;
+        .div-text{
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+    .h2-media{
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        margin-bottom: 20px;
+        .div-img-media{
+            padding: 5%;
+        }
+    }
+    
+    .section-contacto{
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        margin-left: 50px;
+        .h2-contacto{
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+footer{ 
+    background-color: $color-footer;   
+    height: 20vh;
+    width: 100%;
+    bottom: 0;
+    color: black;
+}
+
+.icon-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}

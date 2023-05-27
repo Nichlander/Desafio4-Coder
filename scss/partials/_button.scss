@@ -1,0 +1,15 @@
+.button{
+    color: white;
+    background-color: $color-main;
+    padding: .5rem;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+.button-clear{
+    @extend .button;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: $color-footer;
+    color: black;
+  }

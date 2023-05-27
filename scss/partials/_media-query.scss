@@ -1,0 +1,68 @@
+@media screen and (max-width: 992px) {
+
+    .header{
+        flex-direction: row;
+        justify-content: space-between;
+        height: 20vh;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .header-nav {
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: block;
+        width: 30px;
+    }
+
+    .section-main-text {
+        flex-direction: column;
+    }
+
+    .main-text {
+        width: 80%;
+        order: 2;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-main-text h2, .section-main-text p {
+        text-align: center;
+    }
+
+    .section-main-info {
+        grid-template-rows: repeat(1fr);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "titulo"
+        "descripcion"
+        "card"
+        "card"
+        "card"
+        "card"
+        ;
+        row-gap: 20px;
+        height: auto;
+    }
+
+    .section-main-info h2, .section-main-info p {
+        text-align: center;
+    }
+
+    .div-info {
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 200px;
+    }
+}
